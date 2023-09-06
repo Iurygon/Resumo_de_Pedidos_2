@@ -107,3 +107,17 @@ body{
   background-size: cover;
   font-family: 'Red Hat Display', sans-serif;
 }
+
+.card_principal{
+  width: 80%;
+  background: #ffffff;
+  margin: auto;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.arte{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
