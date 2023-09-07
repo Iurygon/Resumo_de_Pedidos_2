@@ -109,9 +109,9 @@ body{
 }
 
 .card_principal{
-  width: 80%;
+  width: 90%;
   background: #ffffff;
-  margin: auto;
+  margin: auto auto;
   border-radius: 15px;
   text-align: center;
 }
@@ -120,4 +120,62 @@ body{
   width: 100%;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+}
+
+/*DESCRIÇÃO*/
+
+.descricao{
+  margin: 35px 25px 30px 25px;
+  font-size: 18px;
+  color: #808080;
+}
+
+.descricao h1{
+  font-size: 23px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/*PAGAMENTO*/
+
+.pagamento{
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F0F8FF;
+  margin: 0 20px 22px;
+  padding: 15px 0;
+  border-radius: 10px;
+  grid-template-areas: 
+  "imagem plano mudar"
+}
+
+.nota_musical{
+  grid-area: imagem;
+}
+
+.plano{
+  grid-area: plano;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.plano h2{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plano p{
+  font-size: 16px;
+  color: #808080;
+}
+
+.pagamento a{
+  grid-area: mudar;
+  font-weight: bold;
+  color: #6D2AFF;
+  text-decoration: underline;
 }
