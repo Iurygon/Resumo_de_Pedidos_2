@@ -3,7 +3,7 @@
 Projeto que simula o resumo de um pedido, dizendo seus benefícios, preços, e as opções de mudar de plano e prosseguir para a tela de pagamento, mas estas são opções que não estão disponíveis por hora. É a segunda versão do primeiro projeto individual que fiz, buscando melhorias e fazendo um código mais limpo, melhor documentado e responsivo.
 
 ## Screenshots
-![Imagem do projeto](Images/Imagem_projeto.png)
+![Imagem do Projeto](images/imagem_projeto.PNG)
 
 ## Links
 Deploy: <https://iurygon.github.io/Resumo_de_Pedidos_2/>
