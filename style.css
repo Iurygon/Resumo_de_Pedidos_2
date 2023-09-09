@@ -103,16 +103,24 @@ body{
 body{
   width: 100%;
   background: url('Images/background.svg') no-repeat #F0F8FF;
-  background-size: cover;
+  background-size: auto;
   font-family: 'Red Hat Display', sans-serif;
 }
 
 .card_principal{
   width: 90%;
-  background: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: auto;
+  background: #ffffff;
   border-radius: 15px;
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+    
 }
 
 .arte{
@@ -142,6 +150,7 @@ body{
   display: grid;
   align-items: center;
   justify-content: space-around;
+  width: 88%;
   background-color: #F0F8FF;
   margin: 0 20px 22px;
   padding: 15px 0;
@@ -184,6 +193,7 @@ body{
 
 .aceite{
   display: grid;
+  width: 88%;
   grid-template-columns: auto;
   row-gap: 23px;
 }
@@ -204,4 +214,24 @@ body{
   font-weight: bold;
   font-size: 14px;
   padding-bottom: 35px; 
+}
+
+/*DESKTOP*/
+
+@media (width >= 500px){
+
+  .card_principal{
+    width: 400px;
+  }
+
+}
+
+/*BACKGROUND*/
+
+@media (width > 1200px){
+
+  body{
+    background-size: cover;
+  }
+
 }
